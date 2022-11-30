@@ -1,5 +1,5 @@
 <template>
-  <img ref="busImg" src="../assets/tickets1.jpg" alt="busImg">
+  <img ref="busImg" src="../assets/tickets1.jpg" alt="busImg" height="1080" width="1920">
 </template>
 
 <script setup lang="ts">
@@ -11,8 +11,8 @@ const busImg = ref()
 
 onMounted(() => {
   busImg.value.src = tickets1
-  busImg.value.height = 1080
-  busImg.value.width = 1920
+  // busImg.value.height = 1080
+  // busImg.value.width = 1920
   setInterval(() => {
     busImg.value.src = tickets1
     setTimeout(() => {
