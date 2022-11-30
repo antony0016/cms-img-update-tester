@@ -22,8 +22,9 @@ const openDoor = (door_id: number, is_open: number) => {
 
 .btn-test {
   width: 200px;
-  height: 50px;
+  height: 30px;
   margin-bottom: 10px;
+  margin-left: 10px;
   font-size: 20px;
 }
 </style>
