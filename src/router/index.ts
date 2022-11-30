@@ -9,8 +9,8 @@ const router = createRouter({
             component: () => import('../views/BusShow.vue')
         },
         {
-            path: '/bus-show/:busId',
-            name: 'bus show',
+            path: '/',
+            name: 'console',
             component: () => import('../views/Console.vue')
         },
     ],
