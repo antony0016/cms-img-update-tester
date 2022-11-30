@@ -1,5 +1,5 @@
 <template>
-  <img ref="busImg" src="" alt="busImg">
+  <img ref="busImg" src="../assets/tickets1.jpg" alt="busImg">
 </template>
 
 <script setup lang="ts">
