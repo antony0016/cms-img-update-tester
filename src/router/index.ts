@@ -5,9 +5,14 @@ const router = createRouter({
     routes: [
         {
             path: '/bus-show/:busId',
-            name: 'Home',
+            name: 'bus show',
             component: () => import('../views/BusShow.vue')
-        }
+        },
+        {
+            path: '/bus-show/:busId',
+            name: 'bus show',
+            component: () => import('../views/Console.vue')
+        },
     ],
 })
 
