@@ -13,7 +13,7 @@ import {ref} from "vue";
 const platforms = ref([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19])
 
 const openDoor = (door_id: number, is_open: number) => {
-  fetch(`http://localhost:1111/door?door_id=${door_id}&is_open=${is_open}`)
+  fetch(`http://localhost:1111/door?door_id=${door_id}&is_open=${is_open.toString()}`)
   console.log('open door')
 }
 </script>
